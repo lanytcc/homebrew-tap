@@ -1,7 +1,7 @@
 class Spotvm < Formula
     desc "spot vm tool"
     homepage "https://github.com/lanytcc/spot"
-    version "0.3.1"
+    version "0.0.2"
     if OS.mac?
       if Hardware::CPU.arm?
         url "https://github.com/lanytcc/spot/releases/download/v#{version}/spot_darwin_arm64"
